@@ -1,0 +1,242 @@
+.titulo__forms {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+    padding-bottom: 2rem;
+}
+
+.input-container {
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input {
+    font-family: 'Raleway';
+    font-style: normal;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C8C8C8;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 63.13px;
+    width: 275px;
+    color: #464646;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #464646
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    font-family: 'Raleway';
+    font-style: normal;
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 16px;
+    transition: all 0.25s;
+    color: #464646;
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #464646
+}
+
+.btn__forms {
+    width: 109px;
+    height: 62px;
+    left: 508px;
+    top: 435px;
+    background: #2A7AE4;
+    border-radius: 5px;
+    /*texto*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.titulo__forms2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+    padding-bottom: 0.5rem;
+}
+
+.input2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 56px;
+    width: 331px;
+    color: #464646;
+    border-radius: 7px;
+}
+
+.input2::placeholder {
+    visibility: hidden;
+    color: #464646
+}
+
+.input2:focus {
+    outline: none;
+}
+
+.input-label2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 16px;
+    ;
+    transition: all 0.25s;
+    color: #464646;
+}
+
+.input2:not(:placeholder-shown)+.input-label2,
+.input2:focus+.input-label2 {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+    color: #464646
+}
+
+.btn__forms2 {
+    width: 165px;
+    height: 62px;
+    left: 508px;
+    top: 435px;
+    background: #2A7AE4;
+    border-radius: 5px;
+    /*texto*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.textarea {
+    box-sizing: border-box;
+    border: none;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    border-radius: 7px;
+    width: 331px;
+    height: 82px;
+    min-height: 3rem;
+    color: #464646;
+    font-size: 16px;
+}
+
+.textarea-container {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: var(--font-input);
+}
+
+.textarea::placeholder {
+    visibility: hidden;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.textarea-label {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 16px;
+    transition: all 0.25s;
+    color: #464646;
+}
+
+.textarea:not(:placeholder-shown)+.textarea-label,
+.textarea:focus+.textarea-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+}
+
+.contacto__logo2 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .input {
+        width: 375px;
+    }
+    .input2 {
+        width: 434px;
+    }
+    .textarea {
+        width: 434px;
+    }
+    .btn__forms {
+        width: 109px;
+    }
+    .btn__forms2 {
+        width: 144px;
+    }
+    .contacto__logo2 {
+        display: block;
+    }
+    .contacto__logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        width: 423px;
+    }
+    .input2 {
+        width: 460px;
+    }
+    .textarea {
+        width: 460px;
+    }
+    .btn__forms {
+        width: 423px;
+    }
+    .btn__forms2 {
+        width: 165px;
+    }
+    .contacto__logo {
+        display: block;
+    }
+    .contacto__logo2 {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "perfil": [{
+            "nombre": "christian",
+            "email": "christian.s.mojica@gmail.com",
+            "id": "2763db01-6ddc-417c-8c6e-ba8d046883fa",
+            "password": "123456"
+        },
+        {
+            "nombre": "jesus",
+            "email": "jesus@dfs.jhgfh",
+            "id": "c76cf148-35b8-40e4-9ff9-ba30d411f551",
+            "password": "123456"
+        }
+    ],
+
+    "producto": [{
+        "url": "https://th.bing.com/th/id/R.e0b82baca4ea61775691f1004481ff90?rik=2tzb7E4cV%2br%2brg&riu=http%3a%2f%2fmisdibujos.de%2fwp-content%2fuploads%2f2015%2f06%2fdibujos-tiernos-1.jpg&ehk=8UtN1%2b2k0bica89AGi%2fYm79cMlINqssIeHoFd3SvDC8%3d&risl=&pid=ImgRaw&r=0",
+        "categoria": "Consolas",
+        "nombre": "star war",
+        "precio": "6000",
+        "decripcion": ""
+    }]
+}

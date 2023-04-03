@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/assent/css/base/_reset.css">
+    <link rel="stylesheet" href="/assent/css/base/_variables.css">
+    <link rel="preconnect" href=".https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <link rel="stylesheet" href="/assent/css/header.css">
+    <link rel="stylesheet" href="/assent/css/header/disenhos-header.css">
+    <link rel="stylesheet" href="/assent/css/forms/inputs.css">
+    <link rel="stylesheet" href="/assent/css/contacto.css">
+    <link rel="stylesheet" href="/assent/css/piedepagina.css">
+    <link rel="stylesheet" href="/assent/css/login.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav__header">
+            <div class="logo__header">
+                <a href="../index.html">
+                    <img class="logo__header" src="/assent/imgenes/Logo.png" alt="icono" srcset="">
+                </a>
+            </div>
+            <form class="form__header" action="">
+                <input id="buscador" class="input__header" type="text" value="¿Qué deseas buscar?">
+                <button for="buscador" class="btn__buscador"><i class="gg-search"></i></button>
+            </form>
+        </nav>
+        <button for="buscador" class="btn__buscador2"><i class="gg-search"></i></button>
+    </header>
+    <section class="login">
+        <form action="">
+            <h2 class="titulo__forms">Iniciar Sesión </h2>
+            <div class="input-container">
+                <input class="input" type="text" id="email" autocomplete="off" placeholder="correo">
+                <label class="input-label" for="email">Escriba su correo electrónico</label>
+            </div>
+            <div class="input-container">
+                <input class="input" type="password" autocomplete="off" id="contrasenha" placeholder="contraseña">
+                <label class="input-label" for="contrasenha">Escriba su contraseña</label>
+            </div>
+            <button class="btn__forms">Entrar</button>
+        </form>
+    </section>
+    <section class="contacto">
+        <div class="contacto__logo"><img src="/assent/imgenes/Logo.png" alt="logo alura geek"></div>
+        <div class="contacto__link">
+            <div class="contacto__logo2"><img src="/assent/imgenes/Logo.png" alt="logo alura geek"></div>
+            <a class="contacto__link-a" href="#">Quienes somos</a>
+            <a class="contacto__link-a" href="#">Política de privacidad</a>
+            <a class="contacto__link-a" href="#">Programa de fidelidad</a>
+            <a class="contacto__link-a" href="#">Nuestras tiendas</a>
+            <a class="contacto__link-a" href="#">Quiero ser franquiciado</a>
+            <a class="contacto__link-a" href="#">Anuncie aquí</a>
+        </div>
+        <div>
+            <form action="">
+                <h2 class="titulo__forms2">Hable con nosotros</h2>
+                <div class="input-container">
+                    <input class="input2" type="text" id="nombre" autocomplete="off" placeholder="nombre">
+                    <label class="input-label2" class="input-label" for="nombre">Nombre</label>
+                </div>
+                <div class="textarea-container">
+                    <textarea class="textarea" type="text" autocomplete="off" id="mensaje" placeholder="mensaje"></textarea>
+                    <label class="textarea-label" class="input-label" for="mensaje">Escriba su mensaje</label>
+                </div>
+                <button class="btn__forms2">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+    <footer class="pieDePagina ">
+        <p texto__pieDePagina>Desarrollado por Christian Sanchez
+            <br>2023</p>
+    </footer>
+</body>
+
+</html>

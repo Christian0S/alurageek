@@ -1,0 +1,103 @@
+.logo__header {
+    width: 100px;
+    height: 28px;
+}
+
+.form__header {
+    display: none;
+    border: none;
+    padding: 8px 16px;
+    gap: 8px;
+    height: 40px;
+    margin-left: 2rem;
+}
+
+.input__header {
+    background: transparent;
+    color: #A2A2A2;
+}
+
+.input__header {
+    outline: none;
+}
+
+.btn__buscador,
+.btn__buscador2 {
+    background: transparent;
+    color: #A2A2A2;
+}
+
+.btn__login {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 133px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #2A7AE4;
+}
+
+@media screen and (min-width: 768px) {
+    .logo__header {
+        width: 100px;
+        height: 28px;
+    }
+    .form__header {
+        display: flex;
+        padding: 8px 16px;
+        width: 272px;
+        height: 30px;
+        background: #F5F5F5;
+        border-radius: 20px;
+    }
+    .input__header {
+        height: 40px;
+        width: 90%;
+    }
+    .btn__buscador2 {
+        display: none;
+    }
+    .btn__buscador {
+        width: 10%;
+        height: 30px;
+    }
+    .btn__login {
+        padding: 12px 16px;
+        gap: 10px;
+        width: 166px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo__header {
+        width: 176px;
+        height: 50px;
+    }
+    .form__header {
+        padding: 8px 16px;
+        width: 393px;
+        height: 40px;
+    }
+    .input__header {
+        height: 40px;
+        width: 90%;
+    }
+    .btn__buscador {
+        width: 10%;
+        height: 40px;
+    }
+    .btn__login {
+        padding: 16px;
+        gap: 10px;
+        width: 182px;
+        height: 51px;
+    }
+}

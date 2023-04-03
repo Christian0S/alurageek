@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 115px;
+    background: #FFFFFF;
+}
+
+.logo__header {
+    display: flex;
+    align-items: center;
+}
+
+.nav__header {
+    display: flex;
+    align-items: center;
+}

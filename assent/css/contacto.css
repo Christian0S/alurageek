@@ -1,0 +1,35 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 115px;
+    background: #EAF2FD;
+}
+
+.contacto__link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 176px;
+}
+
+.contacto__link-a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+@media screen and (min-width: 768px) {
+    .contacto {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 64px;
+        align-items: normal;
+    }
+}
